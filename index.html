@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Internal Portal 3R Sustainable Energy Development Authority (SEDA) Malaysia</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+    header { background-color: #002066; color: white; padding: 20px; text-align: center; }
+    .navbar {
+      overflow: hidden;
+      background-color: #6082B6;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: red;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    section {
+      padding: 20px;
+      background-color: white;
+      margin: 20px;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #6082B6;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+    ul { margin-top: 10px; }
+
+.tab-buttons {
+  margin-bottom: 10px;
+}
+.tab-btn {
+  background: #002066;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.tab-btn.active {
+  background: #0046b6;
+}
+.tab-content {
+  display: none;
+}
+.tab-content.active {
+  display: block;
+  animation: fadeIn 0.5s ease-in;
+}
+.accordion-header {
+  background-color: #6082B6;
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  text-align: left;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.accordion-header:hover {
+  background-color: #466999;
+}
+.accordion-body {
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  display: none;
+  animation: slideDown 0.4s ease-out forwards;
+  border-left: 3px solid #002066;
+  border-radius: 0 0 5px 5px;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideDown {
+  from { height: 0; opacity: 0; }
+  to { height: auto; opacity: 1; }
+}
+#accordionSearch:focus {
+  outline: none;
+  border-color: #0046b6;
+  box-shadow: 0 0 5px rgba(0, 70, 182, 0.4);
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Internal Portal 3R Sustainable Energy Development Authority (SEDA) Malaysia</h1>
+  </header>
+
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <div class="dropdown">
+      <button class="dropbtn">Division/ Unit 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Pejabat Ketua Pegawai Eksekutif</a>
+        <a href="#">Unit Khas</a>
+        <a href="#">Unit Perundangan</a>
+        <a href="#">Unit Audit Dalam</a>
+        <a href="#">Unit Integriti</a>
+        <a href="#">Unit Perolehan</a>
+        <a href="#">Unit Analisis dan Penyelidikan</a>
+        <a href="#">Bahagian Perancangan Strategik</a>
+        <a href="#">Bahagian Komunikasi Strategik</a>
+        <a href="#">Pejabat KPO (Jabatan Operasi dan Perkhidmatan Teknikal)</a>
+        <a href="#">Bahagian Operasi Pasaran</a>
+        <a href="#">Bahagian Pembangunan dan Fasiliti Teknikal</a>
+        <a href="#">Bahagian Kewangan</a>
+        <a href="#">Bahagian Pentadbiran dan Sumber Manusia</a>
+        <a href="#">Bahagian Perkhidmatan Digital</a>
+      </div>
+    </div> 
+  </div>
+
+  <section>
+    <h3>Welcome to Digital Services Division</h3>
+    <p>The Digital Services Division of SEDA Malaysia champions the strategic integration of technology into our operations, systems, and services. We aim to deliver efficient, secure, and user-friendly digital experiences aligned with the authority's energy development goals.</p>
+  </section>
+
+  <section>
+    <h3>Our Role & 2025 Focus Areas</h3>
+    <ul>
+      <li>Modernizing infrastructure with Nutanix provisioning and VM migration</li>
+      <li>Upgrading key digital systems (e.g., eFiT 2.0, SEIP, KPI Monitoring)</li>
+      <li>Developing new platforms like the SEDA Project Monitoring System & Mobile Dashboard</li>
+      <li>Enhancing cybersecurity with MFA, WAF, and vulnerability remediation</li>
+      <li>Optimizing HR, network, and document management systems</li>
+      <li>Supporting new building IT deployment (network, telephony, internet)</li>
+      <li>Overseeing procurement, licensing, and staff training support</li>
+    </ul>
+  </section>
+
+<section>
+  <h3>Monitoring by Project (2025)</h3>
+
+  <div class="tab-buttons">
+    <button class="tab-btn active" data-tab="tab1">All Projects</button>
+  </div>
+
+  <div class="tab-content active" id="tab1"> <input type="text" id="accordionSearch" placeholder="Search by name or task..." style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;" />
+    <div class="accordion">
+
+      <button class="accordion-header">Azarul</button>
+      <div class="accordion-body">
+        <ul>
+          <li>DC renewal – migrate all VM, next phase: webserver rearchitecture</li>
+          <li>eCashflow Maintenance, PC leasing contracts</li>
+          <li>Core switch replacement, notebook leasing (Awarded)</li>
+          <li>Pentest briefing, AI Chatbot review</li>
+          <li>Doc filling system (pending MOF), budgeting for new building</li>
+          <li>Antivirus renewal, ISMS gap analysis</li>
+          <li>Dashboard App, Project Monitoring System, Firewall MFA</li>
+        </ul>
+      </div>
+
+      <button class="accordion-header">Mazli</button>
+      <div class="accordion-body">
+        <ul>
+          <li>AD cleanup, backups (Commvault, Metallic, Exchange)</li>
+          <li>Cloudflare uptime monitoring, MFA for servers</li>
+          <li>UPS battery replacement, network setup for new building</li>
+          <li>ISMS & DR simulation for eFiT</li>
+        </ul>
+      </div>
+
+      <button class="accordion-header">Akmal</button>
+      <div class="accordion-body">
+        <ul>
+          <li>Firewall, SSL cert & antivirus monitoring</li>
+          <li>Windows patching, password audit</li>
+          <li>WAF purchase, Pentest follow-up, network diagram update</li>
+        </ul>
+      </div>
+
+      <button class="accordion-header">Razimi</button>
+      <div class="accordion-body">
+        <ul>
+          <li>FPX Payment Gateway support (eFiT & STAR)</li>
+          <li>SEIP – live system support</li>
+          <li>eFiT 2.0 cert prep, NUR (PMKS) deployment</li>
+          <li>KPI System 35% ready, FAT testing schedule</li>
+        </ul>
+      </div>
+
+      <button class="accordion-header">Mekna</button>
+      <div class="accordion-body">
+        <ul>
+          <li>Docker RPVSP testing, ISMS 2025</li>
+          <li>eFiT 2.0, PMKS & KPI testing</li>
+          <li>3R platform support, URS document filing</li>
+        </ul>
+      </div>
+
+      <button class="accordion-header">Hazwan</button>
+      <div class="accordion-body">
+        <ul>
+          <li>HR Attendance – pilot completed</li>
+          <li>KPI access provisioning & payment module (KIV)</li>
+        </ul>
+      </div>
+
+      <button class="accordion-header">Efendi</button>
+      <div class="accordion-body">
+        <ul>
+          <li>FPX SPQP – target end Feb</li>
+          <li>KPI/NUR enhancement, SPQP tab updated</li>
+          <li>NEM system maintenance</li>
+        </ul>
+      </div>
+
+      <button class="accordion-header">Hadi</button>
+      <div class="accordion-body">
+        <ul>
+          <li>Laravel upgrade, project charter coordination</li>
+          <li>eFiT Monitoring & NUR/3R support</li>
+        </ul>
+      </div>
+
+      <button class="accordion-header">Zahan</button>
+      <div class="accordion-body">
+        <ul>
+          <li>HOD dashboard, Ms Planner</li>
+          <li>eFiT 2.0 testing, SEDA website backup</li>
+        </ul>
+      </div>
+
+      <button class="accordion-header">Shahidan</button>
+      <div class="accordion-body">
+        <ul>
+          <li>Laptop procurement, disposal handling</li>
+          <li>TrendMicro compliance & form validation</li>
+          <li>Contract review, Hasbullah PC upgrade</li>
+        </ul>
+      </div>
+
+      <button class="accordion-header">Nana</button>
+      <div class="accordion-body">
+        <ul>
+          <li>Staff monitoring, billing tracker, training checklists</li>
+          <li>Celcom line management, file scanning</li>
+        </ul>
+      </div>
+
+      <button class="accordion-header">Danish</button>
+      <div class="accordion-body">
+        <ul>
+          <li>Inventory & antivirus validation</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <section>
+    <h3>Contact Information</h3>
+    <p>
+      📧 Email: ds@seda.gov.my<br />
+      ☎️ Phone: +60 3-8870 5800<br />
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 SEDA Malaysia - Digital Service Division
+  </footer>
+<script>
+  const searchInput = document.getElementById('accordionSearch');
+  const accordionHeaders = document.querySelectorAll('.accordion-header');
+  const accordionBodies = document.querySelectorAll('.accordion-body');
+
+  searchInput.addEventListener('input', () => {
+    const query = searchInput.value.toLowerCase();
+
+    accordionHeaders.forEach((header, index) => {
+      const body = accordionBodies[index];
+      const nameMatch = header.textContent.toLowerCase().includes(query);
+      const tasks = Array.from(body.querySelectorAll('li'));
+      const taskMatch = tasks.some(task => task.textContent.toLowerCase().includes(query));
+
+      if (nameMatch || taskMatch) {
+        header.style.display = 'block';
+        body.style.display = 'none'; // keep it collapsed unless clicked
+      } else {
+        header.style.display = 'none';
+        body.style.display = 'none';
+      }
+    });
+  });
+</script>
+<script>
+  // Accordion logic
+  document.querySelectorAll('.accordion-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const body = header.nextElementSibling;
+      const isOpen = body.style.display === 'block';
+      document.querySelectorAll('.accordion-body').forEach(b => b.style.display = 'none');
+      if (!isOpen) body.style.display = 'block';
+    });
+  });
+
+  // Tab logic (future-proof for more tabs if needed)
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById(btn.dataset.tab).classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>
